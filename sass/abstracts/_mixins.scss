@@ -30,6 +30,8 @@ $breackpoint argument choices:
 - big-desktop   1800px
 
 1em = 16px
+
+ORDER: Base + typography > general layour + grid > page laoyt > components
 */
 @mixin respond($breakpoint) {
   @if $breakpoint == phone {
